@@ -1,0 +1,6 @@
+{% extends "index.html" %}
+
+{% block content %}
+    <h1>Process Photo Evidence Document</h1> 
+    <object data="{{ url_for('static', filename='Process photos.pdf')}}" type="application/pdf" style="min-height:100vh;width:100%"></object>
+{% endblock %}

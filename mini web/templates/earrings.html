@@ -1,0 +1,6 @@
+{% extends "index.html" %}
+
+{% block content %}
+    <h1>Images of Earrings Document</h1>
+    <object data="{{ url_for('static', filename='Images of earrings.pdf')}}" type="application/pdf" style="min-height:100vh;width:100%"></object>
+{% endblock %}
